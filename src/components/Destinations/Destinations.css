@@ -1,0 +1,16 @@
+.destinations {
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.place-section {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
