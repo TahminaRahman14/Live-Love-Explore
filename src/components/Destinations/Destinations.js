@@ -40,7 +40,10 @@
         </div>
         <div className="cart-section">
             
-            <Cart></Cart>
+            <Cart 
+            cart={cart}
+            RemoveCart = {RemoveCart}
+            ></Cart>
 
             </div>    
 

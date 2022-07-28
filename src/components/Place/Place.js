@@ -4,7 +4,6 @@ import React from 'react';
 import './Place.css'
 
 const Place = ({destination,handleAddToCart}) => {
-    console.log(destination);
 
     const {name,image,price} = destination;
     return (
