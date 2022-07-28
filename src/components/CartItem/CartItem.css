@@ -1,0 +1,15 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item p {
+    padding-right: 20px;
+}
+
+.cart-item img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0 10px;
+}
