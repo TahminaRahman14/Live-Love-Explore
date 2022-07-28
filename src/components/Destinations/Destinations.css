@@ -5,6 +5,8 @@
     background-color: beige;
 }
 
+
+
 .place-section {
 
 
@@ -13,5 +15,47 @@
     gap: 45px;
     margin-top: 30px;
     margin-left: 20px;
+
+}
+
+
+
+/*..... Responsive..... */
+@media only screen and (max-width: 688px) {
+    .destinations {
+        display: grid;
+        grid-column: auto;
+        background-color: beige;
+    }
+
+    .place-section {
+
+        display: block;
+        padding-left: 15px;
+        margin-top: 0;
+    }
+
+    .cart-section {
+
+        position: fixed;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .destinations {
+        display: grid;
+        grid-template-columns: (2fr, 1fr);
+        background-color: beige;
+    }
+
+    .place-section {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5;
+    }
 
 }

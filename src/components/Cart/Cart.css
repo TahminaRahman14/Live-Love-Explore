@@ -36,3 +36,21 @@
 
     background-color: rgb(242, 246, 6);
 }
+
+@media only screen and (max-width: 688px) {
+    #btn-random {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .cart h2 {
+
+        font-size: 15px;
+    }
+
+    #btn-reset {
+        width: auto;
+        font-size: 10px;
+    }
+
+}

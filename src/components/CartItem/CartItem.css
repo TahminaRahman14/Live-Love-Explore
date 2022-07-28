@@ -1,10 +1,13 @@
 .cart-item {
     display: flex;
     align-items: center;
+
 }
 
 .cart-item p {
     padding-right: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 .cart-item img {
