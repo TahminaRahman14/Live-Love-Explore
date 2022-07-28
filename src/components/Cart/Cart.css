@@ -8,3 +8,31 @@
     position: sticky;
     top: 0;
 }
+
+#btn-random {
+
+    background-color: rgb(4, 162, 4);
+    width: 80%;
+    border: 0;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#btn-random:hover {
+
+    background-color: rgb(41, 197, 41);
+}
+
+#btn-reset {
+
+    background-color: rgb(189, 230, 23);
+    width: 80%;
+    border: 0;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#btn-reset:hover {
+
+    background-color: rgb(242, 246, 6);
+}

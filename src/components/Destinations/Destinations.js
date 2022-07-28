@@ -17,8 +17,16 @@
 
         const handleAddToCart = destination => {
 
-            const newCart = [...cart,destination];
-            setCart(newCart);
+            // if((cart.length-1)>4){
+            //     alert("no");
+            // }
+
+            if(!cart.includes(destination)){
+
+                const newCart = [...cart,destination].slice(0,4);
+                setCart(newCart);
+            }
+            
         }
 
         const RemoveCart = () => {

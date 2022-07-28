@@ -25,12 +25,12 @@ const Cart = ({cart,RemoveCart}) => {
            }
         
           <button id='btn-random' onClick={random}>
-            <p>Choose 1 For Me</p>
+            <p>CHOOSE 1 FOR ME</p>
             </button>  
             <br />
             <br />
             <button id='btn-reset' onClick={RemoveCart}>
-                <p>Choose Again</p>
+                <p>CHOOSE AGAIN</p>
             </button>
         
         </div>
