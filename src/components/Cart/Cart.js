@@ -4,7 +4,7 @@ import { faTrash} from '@fortawesome/free-solid-svg-icons'
 import './Cart.css';
 const Cart = ({cart,RemoveCart}) => {
    // console.log(cart);
-    const {name,image} = cart;
+   // const {name,image} = cart;
 
  
 
@@ -14,9 +14,17 @@ const Cart = ({cart,RemoveCart}) => {
             <h3>Selected Destinations:{cart.length}</h3>
            {
             cart.map((names)=>
-            <p>{names.image}{names.name}</p>
+            <p>{names.name}</p>
             )
            }
+        
+          {/* <button>
+            <p>Choose 1 For Me</p>
+            </button>  
+            <br />
+            <button>
+                <p>Choose Again</p>
+            </button> */}
         
         </div>
     );
