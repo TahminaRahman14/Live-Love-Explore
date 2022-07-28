@@ -9,11 +9,15 @@
         const [destinations,setDestinations] = useState([]);
         const [cart, setCart] = useState([]);
 
+        // Load Data
+        
         useEffect(() =>{
             fetch(`data.json`)
             .then(res => res.json())
             .then(data => setDestinations(data))
         },[]);
+
+        // handle data to add in the cart section
 
         const handleAddToCart = destination => {
 
@@ -25,7 +29,7 @@
             
         }
 
-        
+        // Reset the cart using button
 
         const RemoveCart = () => {
         setCart([]);

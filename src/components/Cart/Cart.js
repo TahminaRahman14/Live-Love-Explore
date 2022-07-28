@@ -3,15 +3,15 @@ import React, { useState } from 'react';
 import './Cart.css';
 import CartItem from '../CartItem/CartItem';
 const Cart = ({cart,RemoveCart}) => {
-   // console.log(cart);
-   // const {name,image} = cart;
-   const[Cart,setCart]=useState([]);
+   
+  // failed attempt setting remove item
 
-   const removeItem = (id) =>{
-console.log("clicked");
-    const newCart = Cart.filter(p => p.id !== id);
-    setCart(newCart);
-}
+//    const[Cart,setCart]=useState([]);
+
+//    const removeItem = (id) =>{
+//     const newCart = Cart.filter(p => p.id !== id);
+//     setCart(newCart);
+// }
 
   const random = () =>{ const r = 
     Math.floor(Math.random() * cart.length)
@@ -28,7 +28,7 @@ console.log("clicked");
             cart={cart}
             selectedPlace={selectedPlace}
             key={selectedPlace.id}
-            removeItem={removeItem}
+            
             ></CartItem>
             )
            }
